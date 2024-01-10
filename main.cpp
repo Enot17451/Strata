@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     int a = 12;
-    std::cout << "Hello, World!" << std::endl;
+    int* b = &a;
+    cout << b << endl;
     return 0;
 }
